@@ -1871,6 +1871,13 @@ providers:
         title: "Name"
         description: "Pod Name"
         required: false
+      - name: container_name
+        type: String
+        title: "Container Name"
+        description: "Deployment Container Name"
+        required: false
+        renderingOptions:
+          groupName: Container
       - name: namespace
         type: String
         title: "Namespace"
